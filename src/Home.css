@@ -1,0 +1,17 @@
+
+/* #new{
+    animation-name: nwe;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+} */
+#body{
+    background: linear-gradient(to bottom right, #ff66b2, #6699ff);
+
+}
+#asso{
+    background: linear-gradient(to bottom right,grey ,white );
+}
+  #bn{
+    background: linear-gradient(to bottom right,#6699ff ,#ff66b2 );
+    box-shadow: 10px 10px 10px grey;
+  }

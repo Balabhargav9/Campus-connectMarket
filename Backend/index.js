@@ -1,0 +1,12 @@
+const express = require('express');
+const app = express();
+const cors = require('cors');
+app.use(express.json());
+app.use(cors());
+require('dotenv').config();
+const allroutes = require("./route");
+app.use("/delivery",allroutes);
+const DB = require('./database');
+const port = process.env.PORT || 3902;
+app.listen(port,()=>{console.log(`port is running at ${port}`)});
+DB();
